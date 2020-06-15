@@ -5,30 +5,29 @@
  */
 package controller;
 
-import dao.productDAO;
+import dao.BillDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import model.product;
 
 /**
  *
  * @author ASUS
  */
-public class aaa extends HttpServlet {
+public class deletebill extends HttpServlet {
 
-    productDAO dao = new productDAO();
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    }
+    BillDAO dao = new BillDAO();
 
     @Override
-    protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-      
+    protected void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+        String id = req.getParameter("id");
+        dao.delete(Long.parseLong(id));
+
+          response.sendRedirect("/web/quanlyhoadon.jsp");
+//        response.getWriter().write("Xoa san pham thanh cong !!");
 
     }
 }
