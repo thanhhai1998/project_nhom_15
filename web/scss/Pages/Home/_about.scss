@@ -1,0 +1,28 @@
+.aboutUs{
+    text-align: center;
+    padding: 20px 100px;
+    .about_content{ 
+
+        .card{
+            text-align: center;
+            border:none;
+            span{
+                color:blue;
+                padding: 10px 0;
+            }
+            p{
+                font-size: 13px;
+            }
+            img{
+                height: 150px;
+                width: 150px;
+                border-radius:50%             ;
+                -webkit-border-radius:50%             ;
+                -moz-border-radius:50%             ;
+                -ms-border-radius:50%             ;
+                -o-border-radius:50%             ;
+}
+
+        }
+    }
+}

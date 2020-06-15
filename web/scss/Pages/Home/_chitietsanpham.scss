@@ -1,0 +1,244 @@
+.chitietsanpham{
+    padding: 20px 100px;
+    .chitietsanpham_content{
+        overflow: hidden; 
+       
+        .col-md-6:nth-child(1){
+            padding-top:100px;
+        }
+        .carousel-indicators{
+            li{
+                 margin-right: 7px;
+                height: 11px;
+                width: 10px;
+                border-radius: 50%            ;
+                -webkit-border-radius: 50%            ;
+                -moz-border-radius: 50%            ;
+                -ms-border-radius: 50%            ;
+                -o-border-radius: 50%            ;
+}
+        }
+        .hinhtangkem{
+            width: 100%;
+        }
+        .hinhsanpham{
+            max-height: 500px;
+            .carousel-item{
+                
+                text-align: center;
+            }
+            img{
+                
+                height: 500px;
+            }
+            .carousel-control-prev,.carousel-control-next{
+                height: 50px;
+                width: 50px;
+                color:White;
+                opacity: 1;
+                background: #ccc;
+                top:50%;
+                border-radius: 50%            ;
+                -webkit-border-radius: 50%            ;
+                -moz-border-radius: 50%            ;
+                -ms-border-radius: 50%            ;
+                -o-border-radius: 50%            ;
+                &:focus{
+                    outline: 1px solid rgb(0, 68, 255);
+                    outline-offset: 5px;
+                }
+                
+}
+            .carousel-control-prev span,.carousel-control-next span{
+                background-image: unset;
+            }
+            
+        }
+        .giavaten{
+            color:white;
+            background: black;
+            padding: 10px 30px;
+            .ten{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .gia{
+                font-size: 25px;
+                font-weight: 500;
+                p{
+                    margin:0;
+                }
+                span{
+                    font-weight: bold;
+            
+                }
+            }
+        }
+        .btnDatmua{
+            width: 100%;
+            padding: 13px 0;
+            margin-top: 10px;   
+            margin-bottom: 10px;   
+            font-size: 30px;
+        }
+        .thongso{
+            .title{
+                background: #6D6E71;
+                color: #fff;
+                -webkit-box-shadow: 0 2px 2px #ccc;
+                -moz-box-shadow: 0 2px 2px #ccc;
+                box-shadow: 2px 2px 2px #ccc;
+                margin-bottom: 10px;
+                line-height: 30px;
+                padding: 10px 0;
+                font-size: 20px;
+
+                text-align: center;
+                font-weight: 600;
+            }
+            .table{
+                margin-bottom: 0;
+               table{
+                   width: 100%;
+                tr{
+                   border-bottom: 5px solid transparent;
+                    td{
+                        border: none;
+                        padding: 5px ;
+                        font-weight: 500;
+                    }
+                    td:first-child{
+                        width: 35%;
+                        background: #6D6E71;
+                        color:white;
+                        padding-left: 15px;
+                        position: relative;
+                        i{
+                            position: absolute;
+                            line-height: 23px;
+                            right: 10px;
+                        }
+                    }
+                    td:nth-child(2){
+                        width: 65%;
+                        padding-left: 20px;
+                    }
+
+                }
+               }
+            }
+            .table2{
+                table{
+                    width: 100%;
+                 tr{
+                    border-bottom: 5px solid transparent;
+                     td{
+                         border: none;
+                         padding: 5px ;
+                         font-weight: 500;
+                     }
+                     td:first-child{
+                         width: 35%;
+                         background: #EDEDED;
+                         color:black;
+                         padding-left: 15px;
+                         position: relative;
+                         i{
+                             position: absolute;
+                             line-height: 23px;
+                             right: 10px;
+                         }
+                     }
+                     td:nth-child(2){
+                         width: 65%;
+                         padding-left: 20px;
+                     }
+ 
+                 }
+                }
+             }
+        }
+    }
+    .hinhanhkhac{
+        text-align: center;
+        img:first-child{
+            width: unset;
+        }
+        img{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
+.duongdan{
+    padding: 10px 100px;
+    color:#ccc;
+    background: #333333;
+    a{
+        color:#ccc;
+        text-decoration: none;
+    }
+    p{
+        margin: 0;
+    }
+}
+.sanphamlienquan{
+    padding: 20px 100px;
+    .sanphamlienquan_content{
+         
+        .owl-nav{
+       
+            .owl-prev,.owl-next{
+               position: absolute;
+              
+               top:40%;
+               height: 40px; 
+               width: 40px; 
+               border: 1px solid black;
+               border-radius:  50%           ;
+               -webkit-border-radius:  50%           ;
+               -moz-border-radius:  50%           ;
+               -ms-border-radius:  50%           ;
+               -o-border-radius:  50%           ;
+               line-height: 0.1;
+}
+            .owl-next span,.owl-prev span{
+                font-size: 30px;
+            }
+            .owl-next{
+                right: -20px;
+            }
+            .owl-prev{
+                left: -20px;
+            }
+        }
+        
+        .card{
+             
+            img{
+                max-height: 380px;
+                max-width: 200px; margin: auto;   
+            } 
+            border: 1px solid transparent;
+            cursor: pointer;
+            text-decoration: none;
+            .masp{
+                margin-top: 10px;
+                color:black;
+                font-weight: 600;
+            }
+            .gia{
+                color:red;
+                font-weight: bold;
+            }
+            &:hover{
+                border-color: #ccc !important;
+                -webkit-box-shadow: 0 3pt 3pt #ccc;
+                -moz-box-shadow: 0 3pt 3pt #ccc;
+                box-shadow: 3pt 3pt 3pt #ccc;
+            }
+           }
+    }
+}

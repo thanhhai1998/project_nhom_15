@@ -1,0 +1,41 @@
+.formDangnhap,.formDangky{
+    padding: 20px 100px;
+    padding-top: 0;
+    .dangnhap_content,.dangky_content{
+        color:white;
+        background: #565559;
+        font-weight: 600;
+        padding: 10px;
+        tr{
+            border-bottom: 10px solid transparent;
+            td:nth-child(1){
+                padding-right: 30px;
+            }
+            input{
+                display: block;
+                width: 100%;
+                height: 38px;
+                width: 300px;
+                padding: 8px 12px;
+                font-size: 14px;
+                line-height: 1.428571429;
+                color: #555555;
+                vertical-align: middle;
+                background-color: #333333;
+                border: 1px solid #333333;
+                border-radius: 4px;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+                box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+                -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+                transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+            }
+        }
+         
+        td{
+            border: none;
+        }
+        .tables{
+            padding: 20px 100px;
+        }
+    }
+}

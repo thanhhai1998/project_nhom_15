@@ -1,0 +1,53 @@
+.footer{
+    text-align: left;
+    .footer1{ 
+        
+    padding: 70px 100px;
+    background: #DADADA;
+    }
+    ul {
+        text-align: left;
+        li{
+            list-style: none;
+        }
+    }
+    .footer2{
+        background: black;
+        text-align: center;
+    padding: 70px 100px;
+    h4{
+        color:white;
+        margin-top:20px;
+    }
+    p{
+        color:white;
+        line-height: 10px;
+    }
+    span{
+        color:rgb(34, 119, 231);
+    }
+        img{ 
+            width: 100%;
+            max-width: 300px;
+        }
+    }
+    .chinhanh{
+        text-align: left;
+        h5{
+            width: 170px;
+            color:white;
+            padding-bottom: 10px;
+            padding-top: 20px;
+        border-bottom: 1px solid white;
+        }
+        p,span{
+            line-height: 10px;
+        }
+    }
+    .footer3{
+        text-align: center;
+        background: #161618;
+        padding: 20px 100px;
+        color:#ccc;
+    }
+}

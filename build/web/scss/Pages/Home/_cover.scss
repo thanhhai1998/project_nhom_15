@@ -1,0 +1,24 @@
+.cover {
+  .cover_content {
+    img {
+      max-height: 500px;
+      width: 100%;
+    }
+    .carousel-indicators {
+      li {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background:#333333;
+        border:none;
+      }
+      li.active{
+          background: red;
+      }
+    }
+  }
+}

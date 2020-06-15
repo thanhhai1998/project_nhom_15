@@ -1,0 +1,26 @@
+.collection{
+    text-align: center;
+    padding: 50px 100px;
+    background: black;
+    color:white;
+    .collection_content{
+        .col-md-6{
+         
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            
+            border: 2px solid #ccc; 
+            position: relative;
+        }
+        p{
+            background: linear-gradient(to right,red,transparent);
+            position: absolute;
+            bottom: 5px;
+            padding: 5px 25px;
+        }
+        .collection_item{
+        }
+    }
+}

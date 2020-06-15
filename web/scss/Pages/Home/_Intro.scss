@@ -1,0 +1,33 @@
+ .intro{
+     padding: 20px 100px;
+     .intro_content{
+         border-top: 1px solid #a8a6a6;
+         
+         border-bottom: 1px solid #a8a6a6;
+         padding-bottom: 10px;
+         padding-top: 30px;
+         ul{ 
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+             li{
+                 
+                 list-style: none;
+                a{
+                    padding: 0 20px;
+                    img{
+                        max-height: 40px;
+                    }
+                }
+             }
+         }
+         .col-md-12{
+             .col-md-6{
+                 img{
+                     width: 100%;
+                     height: 250px;
+                 }
+             }
+         }
+     }
+ }
