@@ -22,6 +22,17 @@ import model.user;
  *
  * @author ASUS
  */
+ /**
+ *
+ * @author ASUS
+ */
+ /**
+ *
+ * @author ASUS
+ *//**
+ *
+ * @author ASUS
+ */
 public class productDAO {
 
     public ArrayList<product> getListProductByCategory(long category_id) throws SQLException {
