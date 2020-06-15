@@ -8,7 +8,7 @@ package dao;
 import connect.DBconnect;
 import java.io.InputStream;
 import java.sql.Connection;
-import java.sql.PreparedStatement;
+import java.sql.PreparedStatement;ưe
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import model.product;
