@@ -3,18 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
- //    productDAO dao = new productDAO();
-//
-//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//    }
-//
-//    @Override
-//    productDAO dao = new productDAO();
-//
-//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//    }
-//
-//    @Override
 package model;
 
 /**

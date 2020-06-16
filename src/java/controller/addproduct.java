@@ -32,27 +32,6 @@
 //    }
 //
 //    @Override
-//    productDAO dao = new productDAO();
-//
-//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//    }
-//
-//    @Override//    productDAO dao = new productDAO();
-//
-//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//    }
-//
-//    @Override//    productDAO dao = new productDAO();
-//
-//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//    }
-//
-//    @Override//    productDAO dao = new productDAO();
-//
-//    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//    }
-//
-//    @Override
 //    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //        String command = request.getParameter("command");
 //        String url = "";
